@@ -8,9 +8,9 @@
 
 struct Data
 {
-    int a;
+    uint64_t a;
     bool b;
-    int c;
+    uint64_t c;
 
     template <class Serializer>
     Error serialize(Serializer& serializer)
