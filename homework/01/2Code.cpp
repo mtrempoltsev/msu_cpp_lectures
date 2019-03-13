@@ -31,7 +31,7 @@ int main()
 	int size;
 	std::cout << "¬веди размерность квадратной матрицы: ";
 	std::cin >> size;
-	int** M = new int* [size];
+	int** M = new int*[size];
 	for (int i = 0; i < size; i++) {
 		M[i] = new int[size];
 		for (int j = 0; j < size; j++) {
@@ -42,7 +42,7 @@ int main()
 	Timer t;
 	for (int i = 0; i < size; i++) {
 		for (int j = 0; j < size; j++) {
-			s += M[i][j];
+			s += M[j][i];
 		}
 	}
 	return 0;
