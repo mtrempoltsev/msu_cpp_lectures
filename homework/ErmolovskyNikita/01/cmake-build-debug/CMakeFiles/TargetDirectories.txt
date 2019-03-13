@@ -1,0 +1,3 @@
+C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/CMakeFiles/Homework_TA.dir
+C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/CMakeFiles/rebuild_cache.dir

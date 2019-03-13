@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Homework_TA"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Homework_TA">
+				<Option output="C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Homework_TA.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw/include"/>
+					<Add directory="d:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="d:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="d:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="d:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="d:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Makefile&quot;  VERBOSE=1 Homework_TA"/>
+					<CompileFile command="D:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Homework_TA/fast">
+				<Option output="C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Homework_TA.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw/include"/>
+					<Add directory="d:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="d:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="d:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="d:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="d:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Makefile&quot;  VERBOSE=1 Homework_TA/fast"/>
+					<CompileFile command="D:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ermol/CLionProjects/Homework_TA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/ermol/CLionProjects/Homework_TA/main.cpp">
+			<Option target="Homework_TA"/>
+		</Unit>
+		<Unit filename="C:/Users/ermol/CLionProjects/Homework_TA/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
