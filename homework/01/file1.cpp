@@ -34,13 +34,11 @@ int main()
 	for (int i = 0; i < 10000; i++)
 		mas[i] = new int[10000];
 	srand(time(NULL));
-	cout << "summes of lines: "<<endl;
 	for (int i = 0; i < 10000; i++)
 	{
 		for (int j = 0; j < 10000; j++)
 		{
 			mas[i][j] = rand() % 100;
-			
 		}
 	}
 	for (int i = 0; i < 10000; i++)
