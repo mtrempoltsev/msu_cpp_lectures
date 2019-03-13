@@ -46,7 +46,7 @@ int main()
 		cout << sum << " ";
 	}
 	cout << endl;
-	cout << "summes of coloumns: "<<endl;
+	cout << "summes of coloumnsпппрп: "<<endl;
 	for (int i = 0; i < 10000; i++)
 	{
 		 sum = 0;
