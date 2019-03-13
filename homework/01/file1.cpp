@@ -29,7 +29,7 @@ private:
 int main()
 {
 	Timer t;
-	volatile int sum;
+	volatile int sum=0;
 	int **mas = new int* [10000];
 	for (int i = 0; i < 10000; i++)
 		mas[i] = new int[10000];
@@ -37,22 +37,16 @@ int main()
 	cout << "summes of lines: "<<endl;
 	for (int i = 0; i < 10000; i++)
 	{
-		 sum = 0;
 		for (int j = 0; j < 10000; j++)
 		{
 			mas[i][j] = rand() % 100;
-			sum += mas[i][j];
+			
 		}
-		cout << sum << " ";
 	}
-	cout << endl;
-	cout << "summes of coloumnsпппрп: "<<endl;
 	for (int i = 0; i < 10000; i++)
 	{
-		 sum = 0;
 		for (int j = 0; j < 10000; j++)
-			sum += mas[j][i];
-		cout << sum << " ";
+			sum += mas[i][j];
 	}
 	system("pause");
 	return 0;
