@@ -46,11 +46,11 @@ int main() {
     volatile int sum = 0;
     for (int i = 0; i < n_cols; i++) {
         for (int j = 0; j < n_rows; j++) {
-            int sum = sum + M[i][j];
+            sum = sum + M[i][j];
         };
     };
 
-    cout << "sum = " << "s" << endl;
+    cout << "sum = " << sum << endl;
 
     return 0;
 }
