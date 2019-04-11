@@ -51,7 +51,7 @@ int main()
 
     auto s5 = std::stringstream("false 1");
     Deserializer d5(s5);
-    checkTrue(d4.load(y) == Error::CorruptedArchive);
+    checkTrue(d5.load(y) == Error::CorruptedArchive);
 
     y = { 0, true, 0 };
 
