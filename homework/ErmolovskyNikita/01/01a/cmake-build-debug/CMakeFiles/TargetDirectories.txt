@@ -1,0 +1,3 @@
+C:/Users/ermol/CLionProjects/tecnoatom_home/1a/cmake-build-debug/CMakeFiles/1a.dir
+C:/Users/ermol/CLionProjects/tecnoatom_home/1a/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ermol/CLionProjects/tecnoatom_home/1a/cmake-build-debug/CMakeFiles/rebuild_cache.dir

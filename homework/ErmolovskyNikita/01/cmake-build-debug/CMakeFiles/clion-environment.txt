@@ -1,0 +1,4 @@
+ToolSet: w64 3.3 (local)@D:\mingw
+Options: 
+
+Options:-DCMAKE_CXX_COMPILER=D:/mingw/bin/c++.exe
